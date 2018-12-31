@@ -50,11 +50,11 @@ Item {
 
     RightMenu {
         id: rightMenu
-        width: height/5
+        height: 50
         anchors.right: parent.right
         anchors.rightMargin: 0
-        anchors.top: parent.top
-        anchors.topMargin: 0
+        anchors.left: parent.left
+        anchors.letMargin: 0
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 0
         onItemChanged:{
@@ -70,7 +70,7 @@ Item {
 
 
     transitions: Transition {
-        NumberAnimation { properties: "y,opacity"; duration: 250}
+        NumberAnimation { properties: "x,opacity"; duration: 250}
     }
 
     Connections {
