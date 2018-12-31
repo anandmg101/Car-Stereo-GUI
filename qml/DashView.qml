@@ -27,7 +27,7 @@ Item {
         id: image1
         fillMode: Image.PreserveAspectCrop
         anchors.fill: parent
-        source: "qrc:/qml/images/ubuntu16_10_by_Khoir_Rudin.png"
+        source: "qrc:/qml/images/blueBG.jpg"
     }
 
     Repeater{
