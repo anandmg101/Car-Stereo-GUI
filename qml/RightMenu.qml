@@ -5,7 +5,7 @@ Item {
     id: rightMenu
     signal itemChanged(int index);
     function menuItemClicked (index){
-        active_button_bg.y = menuItemsRepeater.itemAt(index).y;
+        active_button_bg.x = menuItemsRepeater.itemAt(index).x;
         rightMenu.itemChanged(index);
     }
 
@@ -17,17 +17,17 @@ Item {
 
     Rectangle {
         id: active_button_bg
-        height: (parent.height/menuItems.length)+5
+        width: (parent.width/menuItems.length)+5
         color: "#80ffffff"
-        anchors.right: parent.right
-        anchors.rightMargin: 0
-        anchors.left: parent.left
-        anchors.leftMargin: 0
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 0
+        anchors.top: parent.top
+        anchors.topMargin: 0
         Layout.columnSpan: 0
         Layout.rowSpan: 0
         border.width: 0
 
-        Behavior on y {
+        Behavior on x {
 
             NumberAnimation {
                 //This specifies how long the animation takes
@@ -38,8 +38,8 @@ Item {
         }
 
     }
-
-    ColumnLayout {
+//starting changes from here
+    RowLayout {
         anchors.rightMargin: 5
         anchors.leftMargin: 5
         anchors.bottomMargin: 5
@@ -53,7 +53,7 @@ Item {
             Rectangle {
                 color:menuItems[index].color
                 Layout.fillHeight: true
-                Layout.columnSpan: 1
+                Layout.rowSpan: 1
                 Layout.fillWidth: true
 
                 Image {
@@ -61,8 +61,8 @@ Item {
                     width: 30
                     height: 30
                     anchors.verticalCenter: parent.verticalCenter
-                    anchors.left: parent.left
-                    anchors.leftMargin: 0
+                    anchors.top: parent.top
+                    anchors.topMargin: 0
                     fillMode: Image.PreserveAspectFit
                     source: menuItems[index].image
                     mipmap:true
