@@ -3,7 +3,7 @@ import Qt.labs.settings 1.0
 
 Item {
     id: drawer
-    FontLoader{id:ralewayRegular; source:"qrc:/qml/fonts/Raleway-Regular.ttf"}
+    FontLoader{id:openSansRegular; source:"qrc:/qml/fonts/OpenSans-Regular.ttf"}
 
     signal itemClicked(double frequency, var stationName)
 

@@ -42,7 +42,7 @@ Item {
         tuner.changed(frequency)
     }
 
-    FontLoader{id:ralewayRegular; source:"qrc:/qml/fonts/Raleway-Regular.ttf"}
+    FontLoader{id:openSansRegular; source:"qrc:/qml/fonts/OpenSans-Regular.ttf"}
 
     Item {
         id: tuneSlider
@@ -140,7 +140,7 @@ Item {
                         verticalAlignment: Text.AlignVCenter
                         horizontalAlignment: Text.AlignHCenter
                         font.pixelSize: 24
-                        font.family: ralewayRegular.name
+                        font.family: openSansRegular.name
                         color:"#ffffff"
                     }
                 }

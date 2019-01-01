@@ -10,10 +10,13 @@ Window {
     visible: true
     title: qsTr("viktorgino's HeadUnit GUI")
     visibility: Window.AutomaticVisibility
-    width: Screen.width
-    height: Screen.height
+    width: Screen.width //640
+    height: Screen.height //480
+    flags: Qt.FramelessWindowHint
+    x: Screen.top
+    y: Screen.left
 
-    FontLoader{id:ralewayRegular; source:"qrc:/qml/fonts/Raleway-Regular.ttf"}
+    FontLoader{id:openSansRegular; source:"qrc:/qml/fonts/OpenSans-Regular.ttf"}
 
     Rectangle {
         id: rectangle1

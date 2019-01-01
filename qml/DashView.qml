@@ -36,11 +36,11 @@ Item {
         Loader {
             anchors.left: parent.left
             anchors.leftMargin: 0
-            anchors.bottom: parent.bottom
+            anchors.bottom: rightMenu.top
             anchors.bottomMargin: 0
             anchors.top: parent.top
             anchors.topMargin: 0
-            anchors.right: rightMenu.left
+            anchors.right: parent.right
             anchors.rightMargin: 0
             visible: false
             source: menuItems[index].source
@@ -54,7 +54,7 @@ Item {
         anchors.right: parent.right
         anchors.rightMargin: 0
         anchors.left: parent.left
-        anchors.letMargin: 0
+        anchors.leftMargin: 0
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 0
         onItemChanged:{

@@ -13,7 +13,7 @@ Item {
     property var activeStation: ""
     clip: true
 
-    FontLoader{id:ralewayRegular; source:"qrc:/qml/fonts/Raleway-Regular.ttf"}
+    FontLoader{id:openSansRegular; source:"qrc:/qml/fonts/OpenSans-Regular.ttf"}
 
     function changeState(){
         if(__cclayout.state== ""){
@@ -81,7 +81,7 @@ Item {
                     verticalAlignment: Text.AlignBottom
                     horizontalAlignment: Text.AlignHCenter
                     font.pixelSize: 52
-                    font.family: ralewayRegular.name
+                    font.family: openSansRegular.name
                 }
                 Item {
                     id: spacer1
@@ -106,7 +106,7 @@ Item {
                     color: "#ffffff"
                     text: "Now playing: Skrillex - Purple Lamborghini"
                     verticalAlignment: Text.AlignTop
-                    font.family: ralewayRegular.name
+                    font.family: openSansRegular.name
                     horizontalAlignment: Text.AlignHCenter
                     anchors.fill: parent
                     font.pixelSize: 25
@@ -155,7 +155,7 @@ Item {
                             color: "#ffffff"
                             text: Math.round(tuner.frequency * 10)/10
                             verticalAlignment: Text.AlignVCenter
-                            font.family: ralewayRegular.name
+                            font.family: openSansRegular.name
                             horizontalAlignment: Text.AlignRight
                             anchors.fill: parent
                             font.pixelSize: height *0.8
@@ -171,7 +171,7 @@ Item {
                             color: "#ffffff"
                             text: " MHZ"
                             verticalAlignment: Text.AlignBottom
-                            font.family: ralewayRegular.name
+                            font.family: openSansRegular.name
                             horizontalAlignment: Text.AlignLeft
                             anchors.fill: parent
                             font.pixelSize: height *0.6

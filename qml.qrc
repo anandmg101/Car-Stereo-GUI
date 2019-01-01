@@ -681,5 +681,15 @@
         <file>qml/icons/svg/android-call.svg</file>
         <file>qml/icons/svg/mic-a.svg</file>
         <file>qml/CallNotification.qml</file>
+        <file>qml/fonts/OpenSans-Bold.ttf</file>
+        <file>qml/fonts/OpenSans-BoldItalic.ttf</file>
+        <file>qml/fonts/OpenSans-ExtraBold.ttf</file>
+        <file>qml/fonts/OpenSans-ExtraBoldItalic.ttf</file>
+        <file>qml/fonts/OpenSans-Italic.ttf</file>
+        <file>qml/fonts/OpenSans-Light.ttf</file>
+        <file>qml/fonts/OpenSans-LightItalic.ttf</file>
+        <file>qml/fonts/OpenSans-Regular.ttf</file>
+        <file>qml/fonts/OpenSans-SemiBold.ttf</file>
+        <file>qml/fonts/OpenSans-SemiBoldItalic.ttf</file>
     </qresource>
 </RCC>

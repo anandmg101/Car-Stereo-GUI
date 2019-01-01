@@ -88,6 +88,7 @@ Item {
                     verticalAlignment: Text.AlignVCenter
                     horizontalAlignment: Text.AlignHCenter
                     font.pixelSize: 16
+                    font.family: openSansRegular.name
                 }
 
                 MouseArea {
