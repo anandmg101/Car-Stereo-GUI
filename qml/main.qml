@@ -2,13 +2,12 @@ import QtQuick 2.5
 import QtQuick.Window 2.2
 import Qt.labs.settings 1.0
 import QtQuick.Window 2.2
-import "ClimateControl"
-import "Radio"
+
 Window {
 
     id: window
     visible: true
-    title: qsTr("viktorgino's HeadUnit GUI")
+    title: qsTr("Car Stereo")
     visibility: Window.AutomaticVisibility
     width: Screen.width //640
     height: Screen.height //480

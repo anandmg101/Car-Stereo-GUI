@@ -2,12 +2,6 @@
     <qresource prefix="/">
         <file>qml/DashView.qml</file>
         <file>qml/main.qml</file>
-        <file>qml/ClimateControl/FanDirection.qml</file>
-        <file>qml/fonts/Raleway-Black.ttf</file>
-        <file>qml/fonts/Raleway-Bold.ttf</file>
-        <file>qml/fonts/Raleway-Light.ttf</file>
-        <file>qml/fonts/Raleway-Regular.ttf</file>
-        <file>qml/fonts/Raleway-Thin.ttf</file>
         <file>qml/icons/air-conditioning.png</file>
         <file>qml/icons/alert-circled.png</file>
         <file>qml/icons/alert.png</file>
@@ -200,243 +194,6 @@
         <file>qml/icons/information-circled.png</file>
         <file>qml/icons/information.png</file>
         <file>qml/icons/ionic.png</file>
-        <file>qml/icons/ios7-alarm-outline.png</file>
-        <file>qml/icons/ios7-alarm.png</file>
-        <file>qml/icons/ios7-albums-outline.png</file>
-        <file>qml/icons/ios7-albums.png</file>
-        <file>qml/icons/ios7-americanfootball-outline.png</file>
-        <file>qml/icons/ios7-americanfootball.png</file>
-        <file>qml/icons/ios7-analytics-outline.png</file>
-        <file>qml/icons/ios7-analytics.png</file>
-        <file>qml/icons/ios7-arrow-back.png</file>
-        <file>qml/icons/ios7-arrow-down.png</file>
-        <file>qml/icons/ios7-arrow-forward.png</file>
-        <file>qml/icons/ios7-arrow-left.png</file>
-        <file>qml/icons/ios7-arrow-right.png</file>
-        <file>qml/icons/ios7-arrow-thin-down.png</file>
-        <file>qml/icons/ios7-arrow-thin-left.png</file>
-        <file>qml/icons/ios7-arrow-thin-right.png</file>
-        <file>qml/icons/ios7-arrow-thin-up.png</file>
-        <file>qml/icons/ios7-arrow-up.png</file>
-        <file>qml/icons/ios7-at-outline.png</file>
-        <file>qml/icons/ios7-at.png</file>
-        <file>qml/icons/ios7-barcode-outline.png</file>
-        <file>qml/icons/ios7-barcode.png</file>
-        <file>qml/icons/ios7-baseball-outline.png</file>
-        <file>qml/icons/ios7-baseball.png</file>
-        <file>qml/icons/ios7-basketball-outline.png</file>
-        <file>qml/icons/ios7-basketball.png</file>
-        <file>qml/icons/ios7-bell-outline.png</file>
-        <file>qml/icons/ios7-bell.png</file>
-        <file>qml/icons/ios7-bolt-outline.png</file>
-        <file>qml/icons/ios7-bolt.png</file>
-        <file>qml/icons/ios7-bookmarks-outline.png</file>
-        <file>qml/icons/ios7-bookmarks.png</file>
-        <file>qml/icons/ios7-box-outline.png</file>
-        <file>qml/icons/ios7-box.png</file>
-        <file>qml/icons/ios7-briefcase-outline.png</file>
-        <file>qml/icons/ios7-briefcase.png</file>
-        <file>qml/icons/ios7-browsers-outline.png</file>
-        <file>qml/icons/ios7-browsers.png</file>
-        <file>qml/icons/ios7-calculator-outline.png</file>
-        <file>qml/icons/ios7-calculator.png</file>
-        <file>qml/icons/ios7-calendar-outline.png</file>
-        <file>qml/icons/ios7-calendar.png</file>
-        <file>qml/icons/ios7-camera-outline.png</file>
-        <file>qml/icons/ios7-camera.png</file>
-        <file>qml/icons/ios7-cart-outline.png</file>
-        <file>qml/icons/ios7-cart.png</file>
-        <file>qml/icons/ios7-chatboxes-outline.png</file>
-        <file>qml/icons/ios7-chatboxes.png</file>
-        <file>qml/icons/ios7-chatbubble-outline.png</file>
-        <file>qml/icons/ios7-chatbubble.png</file>
-        <file>qml/icons/ios7-checkmark-empty.png</file>
-        <file>qml/icons/ios7-checkmark-outline.png</file>
-        <file>qml/icons/ios7-checkmark.png</file>
-        <file>qml/icons/ios7-circle-filled.png</file>
-        <file>qml/icons/ios7-circle-outline.png</file>
-        <file>qml/icons/ios7-clock-outline.png</file>
-        <file>qml/icons/ios7-clock.png</file>
-        <file>qml/icons/ios7-close-empty.png</file>
-        <file>qml/icons/ios7-close-outline.png</file>
-        <file>qml/icons/ios7-close.png</file>
-        <file>qml/icons/ios7-cloud-download-outline.png</file>
-        <file>qml/icons/ios7-cloud-download.png</file>
-        <file>qml/icons/ios7-cloud-outline.png</file>
-        <file>qml/icons/ios7-cloud-upload-outline.png</file>
-        <file>qml/icons/ios7-cloud-upload.png</file>
-        <file>qml/icons/ios7-cloud.png</file>
-        <file>qml/icons/ios7-cloudy-night-outline.png</file>
-        <file>qml/icons/ios7-cloudy-night.png</file>
-        <file>qml/icons/ios7-cloudy-outline.png</file>
-        <file>qml/icons/ios7-cloudy.png</file>
-        <file>qml/icons/ios7-cog-outline.png</file>
-        <file>qml/icons/ios7-cog.png</file>
-        <file>qml/icons/ios7-compose-outline.png</file>
-        <file>qml/icons/ios7-compose.png</file>
-        <file>qml/icons/ios7-contact-outline.png</file>
-        <file>qml/icons/ios7-contact.png</file>
-        <file>qml/icons/ios7-copy-outline.png</file>
-        <file>qml/icons/ios7-copy.png</file>
-        <file>qml/icons/ios7-download-outline.png</file>
-        <file>qml/icons/ios7-download.png</file>
-        <file>qml/icons/ios7-drag.png</file>
-        <file>qml/icons/ios7-email-outline.png</file>
-        <file>qml/icons/ios7-email.png</file>
-        <file>qml/icons/ios7-expand.png</file>
-        <file>qml/icons/ios7-eye-outline.png</file>
-        <file>qml/icons/ios7-eye.png</file>
-        <file>qml/icons/ios7-fastforward-outline.png</file>
-        <file>qml/icons/ios7-fastforward.png</file>
-        <file>qml/icons/ios7-filing-outline.png</file>
-        <file>qml/icons/ios7-filing.png</file>
-        <file>qml/icons/ios7-film-outline.png</file>
-        <file>qml/icons/ios7-film.png</file>
-        <file>qml/icons/ios7-flag-outline.png</file>
-        <file>qml/icons/ios7-flag.png</file>
-        <file>qml/icons/ios7-folder-outline.png</file>
-        <file>qml/icons/ios7-folder.png</file>
-        <file>qml/icons/ios7-football-outline.png</file>
-        <file>qml/icons/ios7-football.png</file>
-        <file>qml/icons/ios7-gear-outline.png</file>
-        <file>qml/icons/ios7-gear.png</file>
-        <file>qml/icons/ios7-glasses-outline.png</file>
-        <file>qml/icons/ios7-glasses.png</file>
-        <file>qml/icons/ios7-heart-outline.png</file>
-        <file>qml/icons/ios7-heart.png</file>
-        <file>qml/icons/ios7-help-empty.png</file>
-        <file>qml/icons/ios7-help-outline.png</file>
-        <file>qml/icons/ios7-help.png</file>
-        <file>qml/icons/ios7-home-outline.png</file>
-        <file>qml/icons/ios7-home.png</file>
-        <file>qml/icons/ios7-infinite-outline.png</file>
-        <file>qml/icons/ios7-infinite.png</file>
-        <file>qml/icons/ios7-information-empty.png</file>
-        <file>qml/icons/ios7-information-outline.png</file>
-        <file>qml/icons/ios7-information.png</file>
-        <file>qml/icons/ios7-ionic-outline.png</file>
-        <file>qml/icons/ios7-keypad-outline.png</file>
-        <file>qml/icons/ios7-keypad.png</file>
-        <file>qml/icons/ios7-lightbulb-outline.png</file>
-        <file>qml/icons/ios7-lightbulb.png</file>
-        <file>qml/icons/ios7-location-outline.png</file>
-        <file>qml/icons/ios7-location.png</file>
-        <file>qml/icons/ios7-locked-outline.png</file>
-        <file>qml/icons/ios7-locked.png</file>
-        <file>qml/icons/ios7-loop-strong.png</file>
-        <file>qml/icons/ios7-loop.png</file>
-        <file>qml/icons/ios7-medkit-outline.png</file>
-        <file>qml/icons/ios7-medkit.png</file>
-        <file>qml/icons/ios7-mic-off.png</file>
-        <file>qml/icons/ios7-mic-outline.png</file>
-        <file>qml/icons/ios7-mic.png</file>
-        <file>qml/icons/ios7-minus-empty.png</file>
-        <file>qml/icons/ios7-minus-outline.png</file>
-        <file>qml/icons/ios7-minus.png</file>
-        <file>qml/icons/ios7-monitor-outline.png</file>
-        <file>qml/icons/ios7-monitor.png</file>
-        <file>qml/icons/ios7-moon-outline.png</file>
-        <file>qml/icons/ios7-moon.png</file>
-        <file>qml/icons/ios7-more-outline.png</file>
-        <file>qml/icons/ios7-more.png</file>
-        <file>qml/icons/ios7-musical-note.png</file>
-        <file>qml/icons/ios7-musical-notes.png</file>
-        <file>qml/icons/ios7-navigate-outline.png</file>
-        <file>qml/icons/ios7-navigate.png</file>
-        <file>qml/icons/ios7-paper-outline.png</file>
-        <file>qml/icons/ios7-paper.png</file>
-        <file>qml/icons/ios7-paperplane-outline.png</file>
-        <file>qml/icons/ios7-paperplane.png</file>
-        <file>qml/icons/ios7-partlysunny-outline.png</file>
-        <file>qml/icons/ios7-partlysunny.png</file>
-        <file>qml/icons/ios7-pause-outline.png</file>
-        <file>qml/icons/ios7-pause.png</file>
-        <file>qml/icons/ios7-paw-outline.png</file>
-        <file>qml/icons/ios7-paw.png</file>
-        <file>qml/icons/ios7-people-outline.png</file>
-        <file>qml/icons/ios7-people.png</file>
-        <file>qml/icons/ios7-person-outline.png</file>
-        <file>qml/icons/ios7-person.png</file>
-        <file>qml/icons/ios7-personadd-outline.png</file>
-        <file>qml/icons/ios7-personadd.png</file>
-        <file>qml/icons/ios7-photos-outline.png</file>
-        <file>qml/icons/ios7-photos.png</file>
-        <file>qml/icons/ios7-pie-outline.png</file>
-        <file>qml/icons/ios7-pie.png</file>
-        <file>qml/icons/ios7-play-outline.png</file>
-        <file>qml/icons/ios7-play.png</file>
-        <file>qml/icons/ios7-plus-empty.png</file>
-        <file>qml/icons/ios7-plus-outline.png</file>
-        <file>qml/icons/ios7-plus.png</file>
-        <file>qml/icons/ios7-pricetag-outline.png</file>
-        <file>qml/icons/ios7-pricetag.png</file>
-        <file>qml/icons/ios7-pricetags-outline.png</file>
-        <file>qml/icons/ios7-pricetags.png</file>
-        <file>qml/icons/ios7-printer-outline.png</file>
-        <file>qml/icons/ios7-printer.png</file>
-        <file>qml/icons/ios7-pulse-strong.png</file>
-        <file>qml/icons/ios7-pulse.png</file>
-        <file>qml/icons/ios7-rainy-outline.png</file>
-        <file>qml/icons/ios7-rainy.png</file>
-        <file>qml/icons/ios7-recording-outline.png</file>
-        <file>qml/icons/ios7-recording.png</file>
-        <file>qml/icons/ios7-redo-outline.png</file>
-        <file>qml/icons/ios7-redo.png</file>
-        <file>qml/icons/ios7-refresh-empty.png</file>
-        <file>qml/icons/ios7-refresh-outline.png</file>
-        <file>qml/icons/ios7-refresh.png</file>
-        <file>qml/icons/ios7-reload.png</file>
-        <file>qml/icons/ios7-reverse-camera-outline.png</file>
-        <file>qml/icons/ios7-reverse-camera.png</file>
-        <file>qml/icons/ios7-rewind-outline.png</file>
-        <file>qml/icons/ios7-rewind.png</file>
-        <file>qml/icons/ios7-search-strong.png</file>
-        <file>qml/icons/ios7-search.png</file>
-        <file>qml/icons/ios7-settings-strong.png</file>
-        <file>qml/icons/ios7-settings.png</file>
-        <file>qml/icons/ios7-shrink.png</file>
-        <file>qml/icons/ios7-skipbackward-outline.png</file>
-        <file>qml/icons/ios7-skipbackward.png</file>
-        <file>qml/icons/ios7-skipforward-outline.png</file>
-        <file>qml/icons/ios7-skipforward.png</file>
-        <file>qml/icons/ios7-snowy.png</file>
-        <file>qml/icons/ios7-speedometer-outline.png</file>
-        <file>qml/icons/ios7-speedometer.png</file>
-        <file>qml/icons/ios7-star-half.png</file>
-        <file>qml/icons/ios7-star-outline.png</file>
-        <file>qml/icons/ios7-star.png</file>
-        <file>qml/icons/ios7-stopwatch-outline.png</file>
-        <file>qml/icons/ios7-stopwatch.png</file>
-        <file>qml/icons/ios7-sunny-outline.png</file>
-        <file>qml/icons/ios7-sunny.png</file>
-        <file>qml/icons/ios7-telephone-outline.png</file>
-        <file>qml/icons/ios7-telephone.png</file>
-        <file>qml/icons/ios7-tennisball-outline.png</file>
-        <file>qml/icons/ios7-tennisball.png</file>
-        <file>qml/icons/ios7-thunderstorm-outline.png</file>
-        <file>qml/icons/ios7-thunderstorm.png</file>
-        <file>qml/icons/ios7-time-outline.png</file>
-        <file>qml/icons/ios7-time.png</file>
-        <file>qml/icons/ios7-timer-outline.png</file>
-        <file>qml/icons/ios7-timer.png</file>
-        <file>qml/icons/ios7-toggle-outline.png</file>
-        <file>qml/icons/ios7-toggle.png</file>
-        <file>qml/icons/ios7-trash-outline.png</file>
-        <file>qml/icons/ios7-trash.png</file>
-        <file>qml/icons/ios7-undo-outline.png</file>
-        <file>qml/icons/ios7-undo.png</file>
-        <file>qml/icons/ios7-unlocked-outline.png</file>
-        <file>qml/icons/ios7-unlocked.png</file>
-        <file>qml/icons/ios7-upload-outline.png</file>
-        <file>qml/icons/ios7-upload.png</file>
-        <file>qml/icons/ios7-videocam-outline.png</file>
-        <file>qml/icons/ios7-videocam.png</file>
-        <file>qml/icons/ios7-volume-high.png</file>
-        <file>qml/icons/ios7-volume-low.png</file>
-        <file>qml/icons/ios7-wineglass-outline.png</file>
-        <file>qml/icons/ios7-wineglass.png</file>
-        <file>qml/icons/ios7-world-outline.png</file>
-        <file>qml/icons/ios7-world.png</file>
         <file>qml/icons/ipad.png</file>
         <file>qml/icons/iphone.png</file>
         <file>qml/icons/ipod.png</file>
@@ -613,67 +370,41 @@
         <file>qml/icons/woman.png</file>
         <file>qml/icons/wrench.png</file>
         <file>qml/icons/xbox.png</file>
-        <file>qml/images/path5163.png</file>
         <file>qml/MainForm.ui.qml</file>
-        <file>headunit-gui.pro</file>
+        <file>car-stereo-gui.pro</file>
         <file>qml.qrc</file>
         <file>qml/icons/svg/air-conditioning.svg</file>
         <file>qml/icons/svg/rear-window-defrost.svg</file>
         <file>qml/icons/svg/recirculation.svg</file>
         <file>qml/icons/svg/windshield-defrost.svg</file>
         <file>qml/icons/svg/seat.svg</file>
-        <file>qml/ClimateControl/TopButton.qml</file>
-        <file>qml/ClimateControl/CCLayout.qml</file>
-        <file>qml/ClimateControl/FanSlider.qml</file>
         <file>qml/icons/svg/ac.svg</file>
-        <file>qml/ClimateControl/TempSlider.qml</file>
         <file>qml/icons/svg/seat-heat.svg</file>
-        <file>qml/Radio/RadioLayout.qml</file>
-        <file>qml/Radio/Tuner.qml</file>
         <file>qml/RightMenu.qml</file>
-        <file>qml/images/2.png</file>
         <file>qml/icons/svg/chevron-left.svg</file>
         <file>qml/icons/svg/chevron-right.svg</file>
         <file>qml/icons/svg/android-star.svg</file>
         <file>qml/icons/svg/android-star-outline.svg</file>
-        <file>qml/Radio/RadioDrawer.qml</file>
         <file>qml/icons/svg/music-note.svg</file>
         <file>qml/icons/svg/radio-waves.svg</file>
         <file>qml/icons/svg/social-android.svg</file>
         <file>qml/icons/svg/thermometer.svg</file>
         <file>qml/Notifications.qml</file>
-        <file>qml/images/ubuntu16_10_by_Khoir_Rudin.png</file>
-        <file>qml/images/blueBG.jpg</file>
-        <file>qml/ClimateControl/TopButtons.qml</file>
-        <file>qml/MediaPlayer/MediaPlayerLayout.qml</file>
-        <file>qml/images/music_placeholder.jpg</file>
-        <file>qml/MediaPlayer/MediaDrawer.qml</file>
-        <file>qml/MediaPlayer/MediaDrawerItem.qml</file>
         <file>qml/theme/ModeSwitch.qml</file>
         <file>qml/theme/MenuButton.qml</file>
         <file>qml/theme/Arrow.qml</file>
         <file>qml/theme/TopMenu.qml</file>
-        <file>qml/Radio/RadioDrawerItem.qml</file>
         <file>qml/icons/svg/android-list.svg</file>
         <file>qml/icons/svg/android-person.svg</file>
         <file>qml/icons/svg/navicon-round.svg</file>
-        <file>qml/MediaPlayer/MediaListItem.qml</file>
         <file>qml/icons/svg/android-arrow-back.svg</file>
         <file>qml/theme/ImageButton.qml</file>
-        <file>qml/MediaPlayer/NowPlayingList.qml</file>
-        <file>qml/MediaPlayer/NowPlayingListItem.qml</file>
-        <file>qml/MediaPlayer/MediaFolderListItem.qml</file>
-        <file>qml/MediaPlayer/MediaContainerList.qml</file>
-        <file>qml/MediaPlayer/MediaContainerListItem.qml</file>
-        <file>qml/MediaPlayer/MediaList.qml</file>
         <file>qml/theme/AlphabetScrollBar.qml</file>
         <file>qml/icons/android-color-palette.png</file>
         <file>qml/SettingsPage/SettingsPageItem.qml</file>
         <file>qml/SettingsPage/SettingsPage.qml</file>
         <file>qml/SettingsPage/SettingsPageSectionHeader.qml</file>
-        <file>qml/SettingsPage/SettingsPageMediaLocations.qml</file>
         <file>qml/SettingsPage/FileBrowser.qml</file>
-        <file>qml/SettingsPage/SettingsPageAA.qml</file>
         <file>qml/SettingsPage/SettingsPageBluetooth.qml</file>
         <file>qml/SettingsPage/Button.qml</file>
         <file>qml/icons/svg/backspace-outline.svg</file>
@@ -691,5 +422,6 @@
         <file>qml/fonts/OpenSans-Regular.ttf</file>
         <file>qml/fonts/OpenSans-SemiBold.ttf</file>
         <file>qml/fonts/OpenSans-SemiBoldItalic.ttf</file>
+        <file>qml/images/blueBG.jpg</file>
     </qresource>
 </RCC>
