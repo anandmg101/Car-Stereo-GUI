@@ -73,7 +73,7 @@ Item {
     }
 
     Connections {
-        target: headunit
+        target: AndroidAuto
         onDeviceConnected: {
             notifications1.addNotification({
                image: notification.image,
@@ -84,7 +84,7 @@ Item {
 
 
     Connections {
-        target: mediaLibrary
+        target: MediaPlayerPlugin
         onMediaScanningFinished:
             notifications1.addNotification({
                image: "qrc:/qml/icons/android-search.png",
